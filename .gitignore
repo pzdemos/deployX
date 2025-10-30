@@ -1,0 +1,68 @@
+# Node 后端项目 .gitignore
+
+# dependencies
+node_modules/
+
+# runtime logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+tmp/
+temp/
+
+# build output
+dist/
+build/
+out/
+
+# coverage
+coverage/
+.nyc_output/
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# cache
+.cache/
+.parcel-cache/
+.sass-cache/
+
+# editor & IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# test / lint
+.eslintcache
+jest.config.js.snap
+
+# misc
+*.tgz
+*.zip
+node-repl-history
+
+# optional: ignore lockfiles if you intentionally don't want to commit them
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
